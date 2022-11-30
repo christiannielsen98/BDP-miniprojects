@@ -1,3 +1,6 @@
+# Data
+The data is accessible through <a href="https://www.dropbox.com/s/nerfrhbrseev928/CleanML-datasets-2020.zip?dl=0&file_subpath=%2Fdata"> Dropbox</a>, in the directories KDD, KDD_major, KDD_minor, and KDD_uniform. The original data, delimited into separate 6 datasets, donations.csv, essays.csv, projects.csv, resources.csv, outcomes.csv, and sampleSubmission.csv, is available on <a href="https://www.kaggle.com/c/kdd-cup-2014-predicting-excitement-at-donors-choose/data"> Kaggle</a>
+
 # Data Fields
 Below is a brief explanation of the provided data fields. Descriptions of self-explanatory names are omitted.
 
@@ -87,3 +90,18 @@ Below is a brief explanation of the provided data fields. Descriptions of self-e
 - <b> item_number </b> - resource item identifier
 - <b> item_unit_price </b> - unit price of the resource
 - <b> item_quantity </b> - number of a specific item requested by a teacher
+
+# Fields with errors
+The following data fields contains errors for the KDD_uniform/raw data
+
+- teacher_teach_for_america
+- eligible_double_your_impact_match
+- school_charter
+- eligible_almost_home_match
+- school_nlns
+- school_kipp
+- school_magnet
+- school_charter_ready_promise
+- teacher_ny_teaching_fellow
+- school_year_round
+- is_exciting_20
