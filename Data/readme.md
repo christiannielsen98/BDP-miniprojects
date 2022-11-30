@@ -3,21 +3,37 @@ The data is accessible through <a href="https://www.dropbox.com/s/nerfrhbrseev92
 
 For this project, the data from Dropbox was used, and put in the following structure.
 | Code
+
 | Data
+
 -- | KDD
+
 ---- | dirty_train.csv
+
 ---- | raw.csv
+
 -- | KDD_major
+
 ---- | mislabel_clean_raw.csv
+
 ---- | raw.csv
+
 -- | KDD_minor
+
 ---- | mislabel_clean_raw.csv
+
 ---- | raw.csv
+
 -- | KDD_uniform
+
 ---- | mislabel_clean_raw.csv
+
 ---- | raw.csv
+
 | .gitignore
+
 | LICENSE
+
 | REAME.md
 
 # Data Fields
