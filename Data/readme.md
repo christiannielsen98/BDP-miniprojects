@@ -1,7 +1,7 @@
 # Data Fields
 Below is a brief explanation of the provided data fields. Descriptions of self-explanatory names are omitted.
 
-- <b is_exciting > - ground truth of whether a project is exciting from business perspective
+- <b> is_exciting </b> - ground truth of whether a project is exciting from business perspective
 - at_least_1_teacher_referred_donor - teacher referred = donor donated because teacher shared a link or publicized their page
 - fully_funded - project was successfully completed
 - at_least_1_green_donation - a green donation is a donation made with credit card, PayPal, Amazon or check
