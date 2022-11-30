@@ -66,45 +66,39 @@ Below is a brief explanation of the provided data fields. Descriptions of self-e
 - eligible_double_your_impact_match - project was eligible for a 50% off offer by a corporate partner (logo appears on a project, like Starbucks or Disney)
 - eligible_almost_home_match - project was eligible for a $100 boost offer by a corporate partner
 - date_posted - data a project went live on the site
-
-donations.csv
-donationid - unique donation identifier
-projectid - unique project identifier (project that received the donation)
-donor_acctid - unique donor identifier (donor that made a donation)
-donor_city
-donor_state
-donor_zip
-is_teacher_acct - donor is also a teacher
-donation_timestamp
-donation_to_project - amount to project, excluding optional support (tip)
-donation_optional_support - amount of optional support
-donation_total - donated amount
-dollar_amount - donated amount in US dollars
-donation_included_optional_support - whether optional support (tip) was included for DonorsChoose.org
-payment_method - what card/payment option was used
-payment_included_acct_credit - whether a portion of a donation used account credits redemption
-payment_included_campaign_gift_card - whether a portion of a donation included corporate sponsored giftcard
-payment_included_web_purchased_gift_card - whether a portion of a donation included citizen purchased giftcard (ex: friend buy a giftcard for you)
-payment_was_promo_matched - whether a donation was matched 1-1 with corporate funds
-via_giving_page - donation given via a giving / campaign page (example: Mustaches for Kids)
-for_honoree - donation made for an honoree
-donation_message - donation comment/message. Used to calcualte great_chat
-
-essays.csv
-projectid - unique project identifier
-teacher_acctid - teacher id that created a project
-title - title of the project
-short_description - description of a project
-need_statement - need statement of a project
-essay - complete project essay
-
-resources.csv
-resourceid - unique resource id
-projectid - project id that requested resources for a classroom
-vendorid - vendor id that supplies resources to a project
-vendor_name
-project_resource_type - type of resource
-item_name - resource name (ex: ipad 32 GB)
-item_number - resource item identifier
-item_unit_price - unit price of the resource
-item_quantity - number of a specific item requested by a teacher
+- donationid - unique donation identifier
+- projectid - unique project identifier (project that received the donation)
+- donor_acctid - unique donor identifier (donor that made a donation)
+- donor_city
+- donor_state
+- donor_zip
+- is_teacher_acct - donor is also a teacher
+- donation_timestamp
+- donation_to_project - amount to project, excluding optional support (tip)
+- donation_optional_support - amount of optional support
+- donation_total - donated amount
+- dollar_amount - donated amount in US dollars
+- donation_included_optional_support - whether optional support (tip) was included for DonorsChoose.org
+- payment_method - what card/payment option was used
+- payment_included_acct_credit - whether a portion of a donation used account credits redemption
+- payment_included_campaign_gift_card - whether a portion of a donation included corporate sponsored giftcard
+- payment_included_web_purchased_gift_card - whether a portion of a donation included citizen purchased giftcard (ex: friend buy a giftcard for you)
+- payment_was_promo_matched - whether a donation was matched 1-1 with corporate funds
+- via_giving_page - donation given via a giving / campaign page (example: Mustaches for Kids)
+- for_honoree - donation made for an honoree
+- donation_message - donation comment/message. Used to calcualte great_chat
+- projectid - unique project identifier
+- teacher_acctid - teacher id that created a project
+- title - title of the project
+- short_description - description of a project
+- need_statement - need statement of a project
+- essay - complete project essay
+- resourceid - unique resource id
+- projectid - project id that requested resources for a classroom
+- vendorid - vendor id that supplies resources to a project
+- vendor_name
+- project_resource_type - type of resource
+- item_name - resource name (ex: ipad 32 GB)
+- item_number - resource item identifier
+- item_unit_price - unit price of the resource
+- item_quantity - number of a specific item requested by a teacher
