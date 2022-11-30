@@ -1,18 +1,3 @@
-# "Exciting" Projects
-Exciting projects meet a number of requirements specified by DonorsChoose.org. Note that the term "exciting" is meant as a business construct and does not imply that non-exciting projects are not compelling to teachers/students/donors!
-
-### To be exciting, a project must meet all of the following five criteria. The name in parentheses indicates the field containing each feature in the data set.
-- was fully funded (fully_funded)
-- had at least one teacher-acquired donor (at_least_1_teacher_referred_donor)
-- has a higher than average percentage of donors leaving an original message (great_chat)
-- has at least one "green" donation (at_least_1_green_donation)
-
-### and have one or more of:
-- donations from three or more non teacher-acquired donors (three_or_more_non_teacher_referred_donors)
-- one non teacher-acquired donor gave more than $100 (one_non_teacher_referred_donor_giving_100_plus)
-- the project received a donation from a "thoughtful donor" (donation_from_thoughtful_donor)
-
-
 # Data Fields
 Below is a brief explanation of the provided data fields. Descriptions of self-explanatory names are omitted.
 
