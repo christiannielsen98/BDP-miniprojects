@@ -1,6 +1,25 @@
 # Data
 The data is accessible through <a href="https://www.dropbox.com/s/nerfrhbrseev928/CleanML-datasets-2020.zip?dl=0&file_subpath=%2Fdata"> Dropbox</a>, in the directories KDD, KDD_major, KDD_minor, and KDD_uniform. The original data, delimited into separate 6 datasets, donations.csv, essays.csv, projects.csv, resources.csv, outcomes.csv, and sampleSubmission.csv, is available on <a href="https://www.kaggle.com/c/kdd-cup-2014-predicting-excitement-at-donors-choose/data"> Kaggle</a>
 
+For this project, the data from Dropbox was used, and put in the following structure.
+| Code
+| Data
+-- | KDD
+---- | dirty_train.csv
+---- | raw.csv
+-- | KDD_major
+---- | mislabel_clean_raw.csv
+---- | raw.csv
+-- | KDD_minor
+---- | mislabel_clean_raw.csv
+---- | raw.csv
+-- | KDD_uniform
+---- | mislabel_clean_raw.csv
+---- | raw.csv
+| .gitignore
+| LICENSE
+| REAME.md
+
 # Data Fields
 Below is a brief explanation of the provided data fields. Descriptions of self-explanatory names are omitted.
 
@@ -104,4 +123,4 @@ The following data fields contains errors for the KDD_uniform/raw data
 - school_charter_ready_promise
 - teacher_ny_teaching_fellow
 - school_year_round
-- is_exciting_20
+- is_exciting
