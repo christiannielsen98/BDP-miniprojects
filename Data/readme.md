@@ -1,9 +1,8 @@
 # Data
 The data is accessible through <a href="https://www.dropbox.com/s/nerfrhbrseev928/CleanML-datasets-2020.zip?dl=0&file_subpath=%2Fdata"> Dropbox</a>, in the directories KDD, KDD_major, KDD_minor, and KDD_uniform. The original data, delimited into separate 6 datasets, donations.csv, essays.csv, projects.csv, resources.csv, outcomes.csv, and sampleSubmission.csv, is available on <a href="https://www.kaggle.com/c/kdd-cup-2014-predicting-excitement-at-donors-choose/data"> Kaggle</a>
 
-For this project, the data from Dropbox was used, and put in the following structure.
+For this project, the data from Dropbox was used, and put in the following structure in the Data folder.
 ```
-| Code
 | Data
 -- | KDD
 ---- | dirty_train.csv
@@ -17,9 +16,6 @@ For this project, the data from Dropbox was used, and put in the following struc
 -- | KDD_uniform
 ---- | mislabel_clean_raw.csv
 ---- | raw.csv
-| .gitignore
-| LICENSE
-| REAME.md
 ```
 
 # Data Fields
