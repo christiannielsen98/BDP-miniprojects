@@ -10,8 +10,8 @@ from collections import Counter
 DATA_DIR = "data"
 HOTPOTQA_SPLIT_FILE = {
   "train": "hotpot_train_v1.1_simplified.json",
-  # "dev": "hotpot_dev_v1_simplified.json",
-  "dev": "../../Code/movie_lang_questions_json.json",
+  "dev": "hotpot_dev_v1_simplified.json",
+  # "dev": "../../Code/movie_lang_questions_json.json",
   "test": "hotpot_test_v1_simplified.json",
 }
 
