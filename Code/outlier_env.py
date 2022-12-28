@@ -23,23 +23,25 @@ class OutlierEnv:
             seq = action[len("outlier_detection["):-1]
             seq = seq.split(", ")
             seq = list(map(float, seq))
-            print(seq)
             self.outlier_detection_step(sequence=seq)
             self.obs = self.outliers
+        
         elif action.startswith("finish[") and action.endswith("]"):
             answer = action[len("finish["):-1]
             self.answer = answer
             self.obs = None
-
-        return self.obs
     
     def reset(self):
         self.outliers = None
         self.answer = None
         self.obs = None
 
+    def get_obs(self):
+        print(self.obs)
+        return self.obs
 
 if __name__=="__main__":
     env = OutlierEnv()
-    env.step("outlier_detection[1, 2, 3, 4, 5, 6, 7, 8, 9, 1000]")
+    env.step("outlier_detection[[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 1000]]")
     print(env.outliers)
+    
